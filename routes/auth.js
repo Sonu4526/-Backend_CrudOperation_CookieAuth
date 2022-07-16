@@ -12,7 +12,7 @@ router.post("/signup", userSignupValidator, signup);
 router.post("/signin", signin);
 router.get("/signout", signout)
 router.get("/", (req, res) =>{
-    res.send("Hello World !!")
+    res.send("Auto Deployement done !!")
 })
 
 module.exports = router;
